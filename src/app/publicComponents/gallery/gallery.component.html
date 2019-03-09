@@ -1,0 +1,202 @@
+<h1 class='text-center mt-5 mb-5'>Gallery</h1>
+
+<div class="row">
+
+  <div class="col-md-4 mx-auto my-2">
+    <a><img (click)="video1.show()" class="img-fluid z-depth-1" src="../../../assets/midvaleBank.JPG"
+        alt="video" data-toggle="modal" data-target="#modal1"></a>
+  </div>
+
+  <div class="col-md-4 mx-auto my-2">
+    <a><img (click)="video2.show()" class="img-fluid z-depth-1" src="../../../assets/saltLakeStockExchange.JPG"
+        alt="video" data-toggle="modal" data-target="#modal6"></a>
+  </div>
+
+  <div class="col-md-4 mx-auto my-2">
+    <a><img (click)="video3.show()" class="img-fluid z-depth-1" src="../../../assets/bank.JPG"
+        alt="video" data-toggle="modal" data-target="#modal4"></a>
+  </div>
+
+  <div class="col-md-4 mx-auto my-2">
+    <a><img (click)="video4.show()" class="img-fluid z-depth-1" src="../../../assets/blandingBank.JPG"
+        alt="video" data-toggle="modal" data-target="#modal2"></a>
+  </div>
+
+  <div class="col-md-4 mx-auto my-2">
+    <a><img (click)="video5.show()" class="img-fluid z-depth-1" src="../../../assets/greenRiverBank.JPG"
+        alt="video" data-toggle="modal" data-target="#modal5"></a>
+  </div>
+
+  <div class="col-md-4 mx-auto my-2">
+    <a><img (click)="video6.show()" class="img-fluid z-depth-1" src="../../../assets/ogdenExchange.JPG"
+        alt="video" data-toggle="modal" data-target="#modal3"></a>
+  </div>
+
+</div>
+
+<div mdbModal #video1="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+          <img src='../../../assets/midvaleBank.JPG' class='img-fluid'>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+
+        <h5 class="mr-4">Midvale, Utah</h5>
+
+        <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+          mdbWavesEffect data-dismiss="modal" (click)="video1.hide()">Close</button>
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+
+<div mdbModal #video2="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+        <img src='../../../assets/saltLakeStockExchange.JPG' class='img-fluid'>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+        <span class="mr-4">Salt Lake City, Utah</span>
+        <h5 class="mr-4">Midvale, Utah</h5>
+
+        <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+          mdbWavesEffect data-dismiss="modal" (click)="video2.hide()">Close</button>
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+
+<div mdbModal #video3="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+        <img src='../../../assets/bank.JPG' class='img-fluid'>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+
+        <h5 class="mr-4">Gunnison, Utah</h5>
+
+        <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+          mdbWavesEffect data-dismiss="modal" (click)="video3.hide()">Close</button>
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+
+<div mdbModal #video4="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+        <img src='../../../assets/blandingBank.JPG' class='img-fluid'>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+
+        <h5 class="mr-4">Blanding, Utah</h5>
+
+        <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+          mdbWavesEffect data-dismiss="modal" (click)="video4.hide()">Close</button>
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+
+<div mdbModal #video5="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+        <img src='../../../assets/greenRiverBank.JPG' class='img-fluid'>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+
+        <h5 class="mr-4">Green River, Utah</h5>
+
+        <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+          mdbWavesEffect data-dismiss="modal" (click)="video5.hide()">Close</button>
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+
+<div mdbModal #video6="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Body-->
+      <div class="modal-body mb-0 p-0">
+        <img src='../../../assets/ogdenExchange.JPG' class='img-fluid'>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center flex-column flex-md-row">
+
+        <h5 class="mr-4">Ogden, Utah</h5>
+
+        <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+          mdbWavesEffect data-dismiss="modal" (click)="video6.hide()">Close</button>
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>

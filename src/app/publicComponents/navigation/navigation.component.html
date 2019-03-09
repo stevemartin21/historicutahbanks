@@ -1,0 +1,54 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark elegant-color">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand >
+        <div class="btn  btn-block " [routerLink]="['/homePage']">Historic Utah Banks
+          <div class='text-center mt-2'><mdb-icon fas icon="university" size='2x'></mdb-icon></div>
+        </div>
+
+    </mdb-navbar-brand>
+
+    <!-- Collapsible content -->
+    <links>
+
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto mr-0">
+
+
+            <li class="nav-item">
+                <div class="btn elegant-color btn-block" [routerLink]="['/allPeaks']">Gallery
+                  <div class='text-center mt-2'><mdb-icon fas icon="camera-retro" size='2x'></mdb-icon></div>
+                </div>
+            </li>
+            <li class="nav-item">
+              <div class="btn  btn-block" [routerLink]="['/allLakes']">History
+                <div class='text-center mt-2'><mdb-icon fas icon="book" size='2x'></mdb-icon></div>
+              </div>
+          </li>
+          <li class="nav-item">
+              <div class="btn  btn-block" [routerLink]="['/allTrails']">Map
+                <div class='text-center mt-2'><mdb-icon fas icon="map" size='2x'></mdb-icon></div>
+              </div>
+          </li>
+
+          <li class="nav-item">
+              <div class="btn  btn-block" [routerLink]="['/allTrails']">Contact
+                <div class='text-center mt-2'><mdb-icon fas icon="paper-plane" size='2x'></mdb-icon></div>
+              </div>
+          </li>
+
+            <!-- Dropdown -->
+
+
+        </ul>
+        <!-- Links -->
+
+  <!-- Search form -->
+
+    </links>
+    <!-- Collapsible content -->
+
+  </mdb-navbar>
+  <!--/.Navbar-->
+
