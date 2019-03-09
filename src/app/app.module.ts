@@ -15,6 +15,8 @@ import { HistoryComponent } from './publicComponents/history/history.component';
 import { JumbotronComponent } from './publicComponents/jumbotron/jumbotron.component';
 import { FeaturesComponent } from './publicComponents/features/features.component';
 import { ProjectsComponent } from './publicComponents/projects/projects.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomePageComponent } from './publicComponents/home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { ProjectsComponent } from './publicComponents/projects/projects.componen
     HistoryComponent,
     JumbotronComponent,
     FeaturesComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { ProjectsComponent } from './publicComponents/projects/projects.componen
     AgmCoreModule.forRoot({
       // https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key
       apiKey: 'Your_api_key'
-    })
+    }),
+    AppRoutingModule
   ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],
